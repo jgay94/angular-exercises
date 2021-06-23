@@ -3,7 +3,8 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-multiple-choice',
   templateUrl: './multiple-choice.component.html',
-  styleUrls: ['./multiple-choice.component.css']
+  styleUrls: ['./multiple-choice.component.css', './other-styles.css'],
+  // styles: ['button {background-color: blue}']
 })
 export class MultipleChoiceComponent implements OnInit {
   @Output() a = new EventEmitter<void>()
