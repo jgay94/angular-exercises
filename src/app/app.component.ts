@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-angular-app';
+
+  doSomething(): void {
+    alert('Doing something...')
+  }
+  
+  doSomethingElse(): void {
+    alert('Doing something else...')
+  }
+
+  doAnotherThing(): void {
+    alert('Doing another thing...')
+  }
 }
