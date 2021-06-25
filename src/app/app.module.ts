@@ -7,6 +7,7 @@ import { ExampleComponent } from './example/example.component';
 import { PeopleListComponent } from './people-list/people-list.component';
 import { EventHandlingComponent } from './event-handling/event-handling.component';
 import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
+import { CounterButtonComponent } from './counter-button/counter-button.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.compo
     ExampleComponent,
     PeopleListComponent,
     EventHandlingComponent,
-    MultipleChoiceComponent
+    MultipleChoiceComponent,
+    CounterButtonComponent
   ],
   imports: [
     BrowserModule,
