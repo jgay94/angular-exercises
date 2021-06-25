@@ -1,3 +1,4 @@
 <app-congratulations-message [count]="count" [threshold]="threshold"></app-congratulations-message>
-<app-counter-button [count]="count" (buttonClicked)="incrementCount()"></app-counter-button>
+<app-counter-button *ngIf="showCounterButton" [count]="count" (buttonClicked)="incrementCount()"></app-counter-button>
+<button (click)="toggleCounterButton()">Show/hide counter button</button>
 <router-outlet></router-outlet>
