@@ -12,11 +12,9 @@ export class CounterButtonComponent implements OnInit, OnDestroy {
   constructor() { }
 
   ngOnInit(): void {
-    alert('In ngOnInit')
   }
 
   ngOnDestroy(): void {
-  alert('In ngOnDestroy')
   }
 
   onClick(): void {
