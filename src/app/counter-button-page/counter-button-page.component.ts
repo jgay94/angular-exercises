@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-counter-button-page',
@@ -10,13 +11,18 @@ export class CounterButtonPageComponent implements OnInit {
   threshold: number = 10;
   showCounterButton: boolean = true;
 
-  constructor() { }
+  constructor(
+    private router: Router,
+  ) { }
 
   ngOnInit(): void {
   }
 
   incrementCount(): void {
     this.count += 1;
+    if (this.count > this.threshold) {
+      this.router.navigateByUrl('/event-handling');
+    }
   }
 
   toggleCounterButton(): void {
