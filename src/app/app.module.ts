@@ -10,6 +10,7 @@ import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.compo
 import { CounterButtonComponent } from './counter-button/counter-button.component';
 import { CongratulationsMessageComponent } from './congratulations-message/congratulations-message.component';
 import { CounterButtonPageComponent } from './counter-button-page/counter-button-page.component';
+import { ParamsExampleComponent } from './params-example/params-example.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CounterButtonPageComponent } from './counter-button-page/counter-button
     MultipleChoiceComponent,
     CounterButtonComponent,
     CongratulationsMessageComponent,
-    CounterButtonPageComponent
+    CounterButtonPageComponent,
+    ParamsExampleComponent
   ],
   imports: [
     BrowserModule,

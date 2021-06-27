@@ -4,6 +4,7 @@ import { CounterButtonPageComponent } from "./counter-button-page/counter-button
 import { EventHandlingComponent } from "./event-handling/event-handling.component";
 import { ExampleComponent } from './example/example.component';
 import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
+import { ParamsExampleComponent } from './params-example/params-example.component';
 import { PeopleListComponent } from './people-list/people-list.component';
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'example', component: ExampleComponent },
   { path: 'multiple-choice', component: MultipleChoiceComponent },
   { path: 'people-list', component: PeopleListComponent },
+  { path: 'params-example/:urlParam/:anotherParam', component: ParamsExampleComponent },
   { path: '', redirectTo: '/counter-button', pathMatch: 'full' }
 ];
 
