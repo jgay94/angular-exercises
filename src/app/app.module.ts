@@ -11,6 +11,7 @@ import { CounterButtonComponent } from './counter-button/counter-button.componen
 import { CongratulationsMessageComponent } from './congratulations-message/congratulations-message.component';
 import { CounterButtonPageComponent } from './counter-button-page/counter-button-page.component';
 import { ParamsExampleComponent } from './params-example/params-example.component';
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ParamsExampleComponent } from './params-example/params-example.componen
     CounterButtonComponent,
     CongratulationsMessageComponent,
     CounterButtonPageComponent,
-    ParamsExampleComponent
+    ParamsExampleComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,
