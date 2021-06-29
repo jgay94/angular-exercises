@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from "@angular/forms";
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { ParamsExampleComponent } from './params-example/params-example.componen
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { UserInfoFormComponent } from './user-info-form/user-info-form.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { UserInfoDisplayComponent } from './user-info-display/user-info-display.component';
 
 @NgModule({
   declarations: [
@@ -29,12 +31,14 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     ParamsExampleComponent,
     NotFoundPageComponent,
     UserInfoFormComponent,
-    NavBarComponent
+    NavBarComponent,
+    UserInfoDisplayComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
