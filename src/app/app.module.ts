@@ -14,6 +14,7 @@ import { CounterButtonPageComponent } from './counter-button-page/counter-button
 import { ParamsExampleComponent } from './params-example/params-example.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { UserInfoFormComponent } from './user-info-form/user-info-form.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { UserInfoFormComponent } from './user-info-form/user-info-form.component
     CounterButtonPageComponent,
     ParamsExampleComponent,
     NotFoundPageComponent,
-    UserInfoFormComponent
+    UserInfoFormComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
