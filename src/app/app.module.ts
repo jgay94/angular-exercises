@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { CongratulationsMessageComponent } from './congratulations-message/congr
 import { CounterButtonPageComponent } from './counter-button-page/counter-button-page.component';
 import { ParamsExampleComponent } from './params-example/params-example.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+import { UserInfoFormComponent } from './user-info-form/user-info-form.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
     CongratulationsMessageComponent,
     CounterButtonPageComponent,
     ParamsExampleComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    UserInfoFormComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
