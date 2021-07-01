@@ -20,6 +20,7 @@ import { UserInfoDisplayComponent } from './user-info-display/user-info-display.
 import { ButtonComponent } from './button/button.component';
 import { DangerButtonComponent } from './danger-button/danger-button.component';
 import { SuccessButtonComponent } from './success-button/success-button.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { SuccessButtonComponent } from './success-button/success-button.componen
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,7 +5,6 @@ import { Router } from "@angular/router";
   selector: 'app-counter-button-page',
   templateUrl: './counter-button-page.component.html',
   styleUrls: ['./counter-button-page.component.css'],
-  encapsulation: ViewEncapsulation.Emulated,
 })
 export class CounterButtonPageComponent implements OnInit {
   count: number = 0;
