@@ -1,10 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-counter-button-page',
   templateUrl: './counter-button-page.component.html',
-  styleUrls: ['./counter-button-page.component.css']
+  styleUrls: ['./counter-button-page.component.css'],
+  encapsulation: ViewEncapsulation.Emulated,
 })
 export class CounterButtonPageComponent implements OnInit {
   count: number = 0;
